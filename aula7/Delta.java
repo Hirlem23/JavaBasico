@@ -5,7 +5,7 @@ public class Delta extends Equacao {
      
     private double delta;
 
-    //#region metodo de acesso
+    //#region metodo de acesso.
     public double getDelta() {
         return delta;
     }

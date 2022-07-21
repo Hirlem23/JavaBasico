@@ -5,7 +5,7 @@ public class EqXn extends Equacao {
     private double xn;
     private double xp;
 
-    ////#region inicio do metodo de acesso
+    ////#region inicio do metodo de acesso.
     public double getXn() {
         return xn;
     }

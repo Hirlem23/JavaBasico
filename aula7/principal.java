@@ -1,5 +1,6 @@
 package aula7;
 
+//Scanner
 import java.util.Scanner;
 
 public class principal {

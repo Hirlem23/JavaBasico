@@ -24,7 +24,7 @@ public class Equacao {
     public void setC(double c) {
         this.c = c;
     }
-    ////#endregion
+    ////#endregion.
     
 
     
