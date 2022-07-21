@@ -5,7 +5,7 @@ public class Equacao {
     private double b;
     private double c;
 
-    //#region no inicio do metodo
+    //#region no inicio do metodo.
     public double getA() {
         return a;
     }
