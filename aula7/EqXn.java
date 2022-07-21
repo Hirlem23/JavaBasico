@@ -21,12 +21,14 @@ public class EqXn extends Equacao {
     //#endregion
     
     //#region regra de negocio
-    public void calculaXn() {
-        
+    public double calculaXn(Delta delta) {
+        xn = (- delta.getB() - Math.sqrt(delta.getDelta()));
+        return xn / (2 * delta.getA());
     }
 
-    public void calculaXp() {
-        
+    public double calculaXp(Delta delta) {
+        xp = (- delta.getB() + Math.sqrt(delta.getDelta())) ;
+        return xp / (2 * delta.getA());
     }
     //#endregion
     

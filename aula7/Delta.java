@@ -1,6 +1,5 @@
 package aula7;
 
-import java.lang.Math;
 
 public class Delta extends Equacao {    
      
@@ -14,10 +13,12 @@ public class Delta extends Equacao {
     public void setDelta(double delta) {
         this.delta = delta;
     }
-    ////#endregion
-    ////#region regra de negócio
+    //#endregion
+
+    //#region regra de negócio
     public void calculaDelta() {
-        Math.pow(super.getB(), 2);
+       delta = Math.pow(super.getB(), 2);
+       delta = delta - 4 * super.getA() * super.getC();
     }
     ////#endregion
 }
